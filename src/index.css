@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=DM+Serif+Display:ital@0;1&display=swap");
+
+:root {
+  font-family: "DM Sans", sans-serif;
+  color: #3d352d;
+  background: #f0e2d2;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  --ink: #3d352d;
+  --ink-soft: #675e49;
+  --muted: #867b6d;
+  --paper: #f0e2d2;
+  --white: #fcf8f1;
+  --line: #d8c8b4;
+  --green: #ab8e6c;
+  --green-dark: #493f3b;
+  --coral: #956e49;
+  --gold: #f0d8a7;
+  --serif: "DM Serif Display", Georgia, serif;
+  scroll-behavior: smooth;
+  scroll-padding-top: 90px;
+}
+
+* {
+  box-sizing: border-box;
+}
+body {
+  min-width: 320px;
+  margin: 0;
+}
+body,
+button,
+a {
+  font-family: "DM Sans", sans-serif;
+}
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+a {
+  color: inherit;
+}
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--coral);
+  outline-offset: 4px;
+}
+::selection {
+  background: var(--gold);
+  color: var(--green-dark);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
