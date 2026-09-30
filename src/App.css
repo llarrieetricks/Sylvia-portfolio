@@ -918,8 +918,37 @@ blockquote cite {
     gap: 50px;
   }
   .experience-inner {
-    grid-template-columns: 0.65fr 1.35fr;
-    gap: 35px;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .experience-inner > .section-heading {
+    grid-column: 1;
+    grid-row: auto;
+  }
+  .experience-list,
+  .education-row {
+    grid-column: 1;
+  }
+  .experience-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+    margin-bottom: 12px;
+    padding: 18px;
+    border: 1px solid var(--line);
+    background: var(--paper);
+  }
+  .experience-row:last-child {
+    border-bottom: 1px solid var(--line);
+  }
+  .experience-period {
+    grid-row: auto;
+    margin: 0 0 8px;
+    padding-top: 0;
+  }
+  .experience-detail {
+    grid-column: 1;
+    max-width: none;
+    margin-top: 10px;
   }
   .community-row {
     gap: 24px;
@@ -1088,15 +1117,15 @@ blockquote cite {
     max-width: 350px;
   }
   .experience-row {
-    grid-template-columns: 84px 1fr;
-    gap: 0 8px;
-    padding: 19px 0;
+    grid-template-columns: 1fr;
+    gap: 0;
+    padding: 18px;
   }
   .experience-main h3 {
     font-size: 16px;
   }
   .experience-detail {
-    font-size: 9px;
+    font-size: 10px;
   }
   .education-row {
     grid-column: 1;
