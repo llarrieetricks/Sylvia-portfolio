@@ -177,7 +177,7 @@ function App() {
             <div className="contact-details">
               <a href="mailto:nyamoitasylivia0@gmail.com"><Mail size={18} /><span><small>Email</small>nyamoitasylivia0@gmail.com</span><ArrowUpRight className="contact-arrow" size={16} /></a>
               <a href="tel:+254793689696"><Phone size={18} /><span><small>Phone</small>+254 793 689 696</span><ArrowUpRight className="contact-arrow" size={16} /></a>
-              <a href="https://www.instagram.com/nyamoit-a/" target="_blank" rel="noreferrer"><AtSign size={18} /><span><small>Instagram</small>@nyamoit-a</span><ArrowUpRight className="contact-arrow" size={16} /></a>
+              <a href="https://www.instagram.com/_nyamoit_a/" target="_blank" rel="noreferrer"><AtSign size={18} /><span><small>Instagram</small>@_nyamoit_a</span><ArrowUpRight className="contact-arrow" size={16} /></a>
               <div className="location-line"><MapPin size={18} /><span><small>Based in</small>Nairobi, Kenya</span></div>
             </div>
           </div>
